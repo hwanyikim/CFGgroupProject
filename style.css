@@ -1,0 +1,160 @@
+html {
+    font-size: 17px;
+}
+
+.font-display {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textDefault {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(101, 101, 101);
+}
+
+nav a {
+    color: inherit;
+}
+
+.navbar-brand:hover {
+    color: inherit;
+}
+
+.nav-item a:hover {
+    color: #ffb01d;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.collapse {
+    justify-content: flex-end;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.blank {
+    width: 20px;
+}
+
+.headingOne {
+    font-weight: 600;
+    font-size: 13rem;
+    margin-top: 0.9em;
+    color: #fff;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {
+        color: #fff;
+    }
+
+    to {
+        color: #FFC151;
+    }
+}
+
+.hometoService:hover {
+    text-decoration: inherit;
+}
+
+.companyHeadingOne {
+    font-weight: 600;
+    font-size: 10rem;
+    margin-top: 1.3em;
+}
+
+.serviceHeadingOne {
+    font-weight: 600;
+    font-size: 4rem;
+    margin-top: 0.5em;
+}
+
+.contactHeading {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 1em;
+}
+
+.companyToggle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    visibility: hidden;
+}
+
+.members {
+    width: 200px;
+}
+
+.contentsTextOne {
+    margin: 0px 300px 70px;
+}
+
+.contentsTextTwo {
+    margin: 70px 300px 40px;
+}
+
+.serviceSection {
+    border: #FFC151 solid 2px;
+    border-radius: 30px;
+    width: 400px;
+    margin: 50px 30px;
+}
+
+.serviceContents {
+    justify-content: space-between;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(56, 56, 56);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.typeSubject {
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: #FFC151;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 50px 0;
+}
+
+select[id=query] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 50px;
+}
+
+input[type=submit]:hover {
+    background-color: #ffa601;
+}
+
+.contactForm {
+    width: 800px;
+}
